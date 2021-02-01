@@ -4,7 +4,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
 def valid_move?(board, index)
-  if borad[index].between?(0, 8) == true && position_taken? == false
+  if board[index].between?(0, 8) == true && position_taken? == false
     true
   else
     false
